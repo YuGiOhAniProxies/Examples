@@ -1,106 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Yu-Gi-Oh! Card Examples Gallery</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 20px;
-      background: #1a1a1a;
-      color: #fff;
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-    }
-    .card {
-      background: #222;
-      border-radius: 8px;
-      padding: 8px;
-      text-align: center;
-    }
-    .card img {
-      max-width: 100%;
-      border-radius: 4px;
-    }
-    .caption {
-      margin-top: 8px;
-      font-size: 14px;
-      word-break: break-word;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Yu-Gi-Oh! Anime Proxy Examples</title>
+    <style>
+        body {
+            background: #111;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .card p {
+            margin: 8px 0 0;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+    </style>
 </head>
 <body>
-  <h1>Yu-Gi-Oh! Example Cards</h1>
-  <div class="grid" id="gallery"></div>
 
-  <script>
-    // Automatically find and display all .png images in this directory
-    const fileList = [
-      "Odd-Eyes Firewall Dragon.png",
-      "Odd-Eyes Rebellion Xyz Dragon.png",
-      "Nirvana High Paladin.png",
-      "Mamonaka the Vaylantz United.png",
-      "Nekroz of Metaltron.png",
-      "Servant of Endymion.png",
-      "Igknight Cavalier.png",
-      "Supreme King Z-ARC.png",
-      "Destiny Draw.png",
-      "ZARC.png",
-      "Soul Prison.png",
-      "Frozen Fitzgerald.png",
-      "Yubel.png",
-      "Raviel, Lord of Phantasms.png",
-      "Hamon, Lord of Striking Thunder.png",
-      "Uria, Lord of Searing Flames.png",
-      "Legendary Knight Timaeus.png",
-      "The Eye of Timaeus.png",
-      "Orichalcos Deuteros.png",
-      "The Seal of Orichalcos.png",
-      "Mirror Knight Calling.png",
-      "Orichalcos Gigas.png",
-      "Obelisk the Tormentor.png",
-      "The Winged Dragon of Ra.png",
-      "Ra Stats.png",
-      "Slifer the Sky Dragon.png",
-      "Glory of the King's Hand.png",
-      "Gadget Token.png",
-      "Evenly Matched.png",
-      "Polymerization.png",
-      "Hiita the Fire Charmer, Ablaze.png",
-      "Norito the Moral Leader.png",
-      "Stardust Dragon.png",
-      "Elder Entity Norden.png",
-      "Nekroz of Areadbhair.png",
-      "Maxx C.png",
-      "Dark Magician.png"
-    ];
+<h1>Yu-Gi-Oh! Anime Proxy Examples</h1>
 
-    const gallery = document.getElementById("gallery");
+<div class="grid">
 
-    fileList.forEach(filename => {
-      const img = document.createElement("img");
-      img.src = filename;
-      img.alt = filename;
+    <div class="card"><img src="Odd-Eyes Firewall Dragon.png"><p>Odd-Eyes Firewall Dragon</p></div>
+    <div class="card"><img src="Odd-Eyes Rebellion Xyz Dragon.png"><p>Odd-Eyes Rebellion Xyz Dragon</p></div>
+    <div class="card"><img src="Nirvana High Paladin.png"><p>Nirvana High Paladin</p></div>
+    <div class="card"><img src="Mamonaka the Vaylantz United.png"><p>Mamonaka the Vaylantz United</p></div>
+    <div class="card"><img src="Nekroz of Metaltron.png"><p>Nekroz of Metaltron</p></div>
+    <div class="card"><img src="Servant of Endymion.png"><p>Servant of Endymion</p></div>
+    <div class="card"><img src="Igknight Cavalier.png"><p>Igknight Cavalier</p></div>
+    <div class="card"><img src="Supreme King Z-ARC.png"><p>Supreme King Z-ARC</p></div>
+    <div class="card"><img src="Destiny Draw.png"><p>Destiny Draw</p></div>
+    <div class="card"><img src="ZARC.png"><p>ZARC</p></div>
+    <div class="card"><img src="Soul Prison.png"><p>Soul Prison</p></div>
+    <div class="card"><img src="Frozen Fitzgerald.png"><p>Frozen Fitzgerald</p></div>
+    <div class="card"><img src="Yubel.png"><p>Yubel</p></div>
+    <div class="card"><img src="Raviel, Lord of Phantasms.png"><p>Raviel, Lord of Phantasms</p></div>
+    <div class="card"><img src="Hamon, Lord of Striking Thunder.png"><p>Hamon, Lord of Striking Thunder</p></div>
+    <div class="card"><img src="Uria, Lord of Searing Flames.png"><p>Uria, Lord of Searing Flames</p></div>
+    <div class="card"><img src="Legendary Knight Timaeus.png"><p>Legendary Knight Timaeus</p></div>
+    <div class="card"><img src="The Eye of Timaeus.png"><p>The Eye of Timaeus</p></div>
+    <div class="card"><img src="Orichalcos Deuteros.png"><p>Orichalcos Deuteros</p></div>
+    <div class="card"><img src="The Seal of Orichalcos.png"><p>The Seal of Orichalcos</p></div>
+    <div class="card"><img src="Mirror Knight Calling.png"><p>Mirror Knight Calling</p></div>
+    <div class="card"><img src="Orichalcos Gigas.png"><p>Orichalcos Gigas</p></div>
+    <div class="card"><img src="Obelisk the Tormentor.png"><p>Obelisk the Tormentor</p></div>
+    <div class="card"><img src="The Winged Dragon of Ra.png"><p>The Winged Dragon of Ra</p></div>
+    <div class="card"><img src="Ra Stats.png"><p>Ra Stats</p></div>
+    <div class="card"><img src="Slifer the Sky Dragon.png"><p>Slifer the Sky Dragon</p></div>
+    <div class="card"><img src="Glory of the King's Hand.png"><p>Glory of the King's Hand</p></div>
+    <div class="card"><img src="Gadget Token.png"><p>Gadget Token</p></div>
+    <div class="card"><img src="Evenly Matched.png"><p>Evenly Matched</p></div>
+    <div class="card"><img src="Polymerization.png"><p>Polymerization</p></div>
+    <div class="card"><img src="Hiita the Fire Charmer, Ablaze.png"><p>Hiita the Fire Charmer, Ablaze</p></div>
+    <div class="card"><img src="Norito the Moral Leader.png"><p>Norito the Moral Leader</p></div>
+    <div class="card"><img src="Stardust Dragon.png"><p>Stardust Dragon</p></div>
+    <div class="card"><img src="Elder Entity Norden.png"><p>Elder Entity Norden</p></div>
+    <div class="card"><img src="Nekroz of Areadbhair.png"><p>Nekroz of Areadbhair</p></div>
+    <div class="card"><img src="Maxx C.png"><p>Maxx "C"</p></div>
+    <div class="card"><img src="Dark Magician.png"><p>Dark Magician</p></div>
 
-      const div = document.createElement("div");
-      div.className = "card";
+</div>
 
-      const caption = document.createElement("div");
-      caption.className = "caption";
-      caption.textContent = filename;
-
-      div.appendChild(img);
-      div.appendChild(caption);
-      gallery.appendChild(div);
-    });
-  </script>
 </body>
 </html>
